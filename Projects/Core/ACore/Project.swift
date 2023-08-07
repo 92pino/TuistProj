@@ -7,10 +7,15 @@
 
 import ProjectDescription
 import ProjectDescriptionHelpers
+import UtilityPlugin
 
 let project = Project.makeModule(
     name: "ACore",
     product: .framework,
-    packages: [],
-    dependencies: []
+    packages: [
+        .Alamofire
+    ],
+    dependencies: [
+        .SPM.Alamofire
+    ]
 )

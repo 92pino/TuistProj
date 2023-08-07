@@ -8,6 +8,7 @@
 import ProjectDescriptionHelpers
 import ProjectDescription
 import Foundation
+import UtilityPlugin
 
 let settings: Settings = .settings(
     base: [:],
