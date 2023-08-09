@@ -66,6 +66,7 @@ public extension Project {
             infoPlist: infoPlist,
             sources: sources,
             resources: resources,
+            scripts: [.swiftLint],
             dependencies: dependencies
         )
         

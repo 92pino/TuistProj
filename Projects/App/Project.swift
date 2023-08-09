@@ -29,6 +29,7 @@ let targets: [Target] = [
         infoPlist: .file(path: "Support/Info.plist"),
         sources: ["Sources/**"],
         resources: ["Resources/**"],
+        scripts: [.swiftLint],
         dependencies: [
             .Project.Core.ACore,
             .Project.Features.AFeature,
