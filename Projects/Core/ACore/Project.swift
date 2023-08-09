@@ -13,9 +13,11 @@ let project = Project.makeModule(
     name: "ACore",
     product: .framework,
     packages: [
+        // 패키지 등록
         .Alamofire
     ],
     dependencies: [
+        // 의존성 등록
         .SPM.Alamofire
     ]
 )
