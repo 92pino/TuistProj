@@ -59,3 +59,8 @@ graph:
 .PHONY: sgraph
 sgraph:
 	@tuist graph -t -d
+
+##module : 모듈 생성
+.PHONY: module
+module:
+	swift Scripts/test.swift

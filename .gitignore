@@ -68,3 +68,13 @@ Derived/
 
 ### Tuist managed dependencies ###
 Tuist/Dependencies
+
+### CoocaPods ###
+Pods/
+
+### Gem ###
+Gemfile.lock
+
+### Exec App ###
+AppName.txt
+
